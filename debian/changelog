@@ -1,3 +1,10 @@
+tevent (0.9.19-0.1~aroth~ppa1) raring; urgency=low
+
+  * new upstream release
+  * backport to raring
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Tue, 15 Oct 2013 11:54:59 +0200
+
 tevent (0.9.18-1) experimental; urgency=low
 
   * Team upload.

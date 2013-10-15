@@ -35,6 +35,9 @@ override_dh_auto_clean:
 		buildtools/wafadmin/*.pyc \
 		buildtools/wafadmin/Tools/*.pyc
 	rm -rf build
+	rm -rf bin
+	[ -f libtevent.a ] && rm libtevent.a || true
+	[ -f .lock-wscript ] && rm .lock-wscript || true
 
 override_dh_auto_install:
 	$(MAKE) install DESTDIR=$(DESTDIR)
